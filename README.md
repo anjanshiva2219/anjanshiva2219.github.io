@@ -33,7 +33,9 @@ Only **retired** HTB content is ever published. Active machines are shown as
 proof-of-solve stubs with zero spoilers, per Hack The Box rules. Full active
 writeups live in a separate private location and are never committed here.
 
-## TODO before launch
+## Launch checklist
 - [x] Add `assets/Anjan-Kunduru-Resume.pdf`.
-- [ ] Add `assets/img/og.png` (1200×630 social preview).
-- [ ] Set real `meta.htb_profile_url` in `data/writeups.json`.
+- [x] Add `assets/img/og.png` (1200×630 social preview).
+- [x] Set real `meta.htb_profile_url` in `data/writeups.json`.
+
+All content is in place. Remaining step is to push and enable GitHub Pages.
