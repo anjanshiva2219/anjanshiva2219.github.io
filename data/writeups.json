@@ -1,6 +1,6 @@
 {
   "meta": {
-    "htb_profile_url": "https://www.hackthebox.com/",
+    "htb_profile_url": "https://app.hackthebox.com/users/3643332",
     "_comment": "SOURCE OF TRUTH for the public HTB index. Only solved boxes are listed. status=retired -> writeup public (add \"url\"). status=active/unknown -> proof-of-solve stub only, ZERO spoilers. Replace htb_profile_url with the real profile URL. To add the old-account reference boxes / challenges, append entries here (status stays active/unknown = locked)."
   },
   "writeups": [
