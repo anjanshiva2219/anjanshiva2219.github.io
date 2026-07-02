@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "htb_profile_url": "https://www.hackthebox.com/",
+    "_comment": "SOURCE OF TRUTH for the public HTB index. Only solved boxes are listed. status=retired -> writeup public (add \"url\"). status=active/unknown -> proof-of-solve stub only, ZERO spoilers. Replace htb_profile_url with the real profile URL. To add the old-account reference boxes / challenges, append entries here (status stays active/unknown = locked)."
+  },
+  "writeups": [
+    { "name": "Reactor",   "kind": "machine", "os": "Linux",   "difficulty": "Easy",   "date": "Jun 2026", "status": "active", "solved": true },
+    { "name": "Enigma",    "kind": "machine", "os": "Linux",   "difficulty": "Easy",   "date": "Jun 2026", "status": "active", "solved": true },
+    { "name": "WingData",  "kind": "machine", "os": "Linux",   "difficulty": "Easy",   "date": "2026",     "status": "active", "solved": true },
+    { "name": "DevArea",   "kind": "machine", "os": "Linux",   "difficulty": "Medium", "date": "Jul 2026", "status": "active", "solved": true },
+    { "name": "SmartHire", "kind": "machine", "os": "Linux",   "difficulty": "Medium", "date": "Jul 2026", "status": "active", "solved": true },
+    { "name": "Logging",   "kind": "machine", "os": "Windows", "difficulty": "",       "date": "Jul 2026", "status": "active", "solved": true },
+    { "name": "DevHub",    "kind": "machine", "os": "Linux",   "difficulty": "",       "date": "Jul 2026", "status": "active", "solved": true },
+    { "name": "Connected", "kind": "machine", "os": "Linux",   "difficulty": "Easy",   "date": "",         "status": "unknown", "solved": true }
+  ]
+}
