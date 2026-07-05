@@ -169,6 +169,7 @@
             <h3><span class="dot"></span>Languages &amp; Frameworks</h3>
             <div class="chips">
               <span class="chip">Python</span><span class="chip">Bash</span><span class="chip">C</span>
+              <span class="chip">Rust</span><span class="chip">Go</span>
               <span class="chip">Java</span><span class="chip">SQL</span><span class="chip">JavaScript</span>
               <span class="chip">OWASP * PTES</span><span class="chip">MITRE ATT&amp;CK</span>
               <span class="chip">NIST * ISO 27001 * SOC 2</span>
@@ -225,7 +226,38 @@
       <div class="wrap">
         <p class="kicker">// selected work</p>
         <h2 id="proj-title" class="section-title">Featured projects</h2>
-        <p class="section-lead">Hands-on work spanning red-team engagements, ML-driven detection, and forensics. Each one shipped an artifact -- a report, a pipeline, or a recovered payload.</p>
+        <p class="section-lead">Shipped security tooling plus hands-on red-team, ML-detection, and forensics work. The open-source tools below are public on GitHub with tests and CI; the rest each shipped an artifact -- a report, a pipeline, or a recovered payload.</p>
+
+        <h3 class="subgroup">// open-source security tools</h3>
+        <p class="subgroup-lead">A coherent IoT and firmware security toolkit, one tool per language, tracing the workflow from a raw image to a live device. Each is public, tested, and passing CI.</p>
+        <div class="project-grid">
+          <article class="project">
+            <h3>firmscan</h3>
+            <div class="stack"><span class="chip">Rust</span><span class="chip">Firmware</span><span class="chip">Static analysis</span></div>
+            <p>Static security auditor for extracted firmware root filesystems. Flags insecure permissions, hardcoded secrets, telnet and weak SSH config, outdated components, and embedded keys, sorted by severity with JSON output for CI gating. Tuned against a real OpenWrt image to cut false positives.</p>
+            <div class="repo-row"><a class="repo-link" href="https://github.com/anjanshiva2219/firmscan" rel="noopener">View on GitHub →</a><span class="lang-tag">Rust</span></div>
+          </article>
+          <article class="project">
+            <h3>entscan</h3>
+            <div class="stack"><span class="chip">C</span><span class="chip">Entropy</span><span class="chip">Zero deps</span></div>
+            <p>Sliding-window Shannon entropy scanner. Locates encrypted or compressed regions and embedded keys inside a binary by byte offset, with a terminal sparkline. Dependency-free C11 built on a rolling-window histogram.</p>
+            <div class="repo-row"><a class="repo-link" href="https://github.com/anjanshiva2219/entscan" rel="noopener">View on GitHub →</a><span class="lang-tag">C</span></div>
+          </article>
+          <article class="project">
+            <h3>mqttprobe</h3>
+            <div class="stack"><span class="chip">Go</span><span class="chip">MQTT</span><span class="chip">Network</span></div>
+            <p>MQTT broker security probe. Checks for anonymous access, plaintext transport, wildcard and $SYS topic exposure, and retained-message leakage, then reports findings by severity with a JSON mode. Verified end to end against live mosquitto brokers.</p>
+            <div class="repo-row"><a class="repo-link" href="https://github.com/anjanshiva2219/mqttprobe" rel="noopener">View on GitHub →</a><span class="lang-tag">Go</span></div>
+          </article>
+          <article class="project">
+            <h3>iotfp</h3>
+            <div class="stack"><span class="chip">Python</span><span class="chip">SSDP</span><span class="chip">mDNS</span></div>
+            <p>IoT device discovery and fingerprinting over SSDP, mDNS, and banner grabbing, mapping responses to device types. Table and JSON output; the parsers are covered by unit tests.</p>
+            <div class="repo-row"><a class="repo-link" href="https://github.com/anjanshiva2219/iotfp" rel="noopener">View on GitHub →</a><span class="lang-tag">Python</span></div>
+          </article>
+        </div>
+
+        <h3 class="subgroup">// engagements, research &amp; forensics</h3>
         <div class="project-grid">
           <article class="project">
             <h3>Full-Scope Web, Network &amp; Cloud Pentest</h3>
